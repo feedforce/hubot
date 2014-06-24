@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: NT1klq0sA/DOFtTIV2X9gy5SPh/0ERGhPGkAPTQh3Ghtn5G6BTfH/cDvDB82D7Dhg42Gw1Ka74TG3L+gC5WoWkfXizPGlimopbRvO3DN1T/0mwzX0T3UZV7wakxjf4+6xqVVpnnu+6F0h5ABUnK8s68TQaRAllSwJk+LU1Inj2Y=
+  app: ff-hubot
+  on:
+    repo: tmd45/test-hubot
