@@ -7,7 +7,7 @@
 
 util = require 'util'
 module.exports = (robot) ->
-  robot.hear /misawa(?:\s+)?(.+?)?(?:\s*)$/i, (msg) ->
+  robot.respond /misawa(?:\s+)?(.+?)?(?:\s*)$/i, (msg) ->
     msg.http('http://horesase-boys.herokuapp.com/meigens.json')
       .get() (err, res, body) ->
         if err
