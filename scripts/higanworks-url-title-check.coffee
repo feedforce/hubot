@@ -29,6 +29,7 @@ module.exports = (robot) ->
       headers: {'user-agent': 'node title fetcher'}
 
     request options, (error, response, body) ->
+      return if /^404 Not Found/.test(response.headers.status)
       $ = cheerio.load body
       title = $('title').text().replace(/\n/g, '')
       msg.send(title)
