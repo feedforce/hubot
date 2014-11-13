@@ -1,11 +1,18 @@
 feedforce hubot
 ===============
 
-開発メモ
---------
+Deploy to Heroku
+----------------
 
-* PRを作るとTravisCIが実行される。
-* masterにマージされるとHerokuに自動デプロイされる。
+[heroku toolbelt](https://toolbelt.heroku.com/)
+
+masterブランチをデプロイ
+
+    $ git push heroku master
+
+任意のブランチをデプロイ
+
+    $ git push -f heroku <any-branch>:master
 
 Hubot自体の説明
 ---------------
