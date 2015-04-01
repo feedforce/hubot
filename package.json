@@ -24,7 +24,6 @@
     "hubot-cron": "^0.2.7",
     "hubot-scripts": ">= 2.5.16",
     "hubot-slack": "^3.3.0",
-    "request": ">= 2.54.0"
   },
   "engines": {
     "node": ">= 0.8.x",
