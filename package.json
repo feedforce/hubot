@@ -22,6 +22,7 @@
   "dependencies": {
     "hubot": ">= 2.11.4",
     "hubot-cron": "^0.2.7",
+    "hubot-hotpepper": "^0.1.4",
     "hubot-scripts": ">= 2.5.16",
     "hubot-slack": "^3.3.0",
     "request": "^2.55.0"
