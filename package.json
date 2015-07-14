@@ -20,12 +20,12 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
-    "hubot": ">= 2.11.4",
-    "hubot-cron": "^0.2.7",
+    "hubot": ">= 2.13.2",
+    "hubot-cron": "^0.2.9",
     "hubot-hotpepper": "^0.1.4",
-    "hubot-scripts": ">= 2.5.16",
+    "hubot-scripts": ">= 2.16.1",
     "hubot-slack": "^3.3.0",
-    "request": "^2.55.0"
+    "request": "^2.58.0"
   },
   "engines": {
     "node": ">= 0.10.x",
