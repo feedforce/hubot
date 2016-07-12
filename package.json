@@ -22,6 +22,7 @@
   "dependencies": {
     "hubot": ">=2.16.0",
     "hubot-cron": "^0.2.9",
+    "hubot-deploy-builder": "^0.4.0",
     "hubot-hotpepper": "^0.1.4",
     "hubot-scripts": ">=2.16.2",
     "hubot-slack": "^3.3.0",
